@@ -1,1 +1,7 @@
 apply plugin: 'war'
+
+repositories { mavenCentral() }
+
+dependencies {
+	runtime 'org.picketlink:picketlink-federation:2.5.3.Beta1'
+}
