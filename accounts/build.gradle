@@ -1,7 +1,8 @@
 apply plugin: 'war'
 
-repositories { mavenCentral() }
-
-dependencies {
-	runtime 'org.picketlink:picketlink-federation:2.5.3.Beta1'
+repositories {
+	mavenCentral()
+	maven { url "http://repository.jboss.org/nexus/content/groups/public/" }
 }
+
+//dependencies { runtime 'org.picketlink:picketlink-tomcat7-single:2.5.3.Beta1' }
